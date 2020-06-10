@@ -1,0 +1,67 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+main {
+    margin: 0 auto;
+    width: 800px;
+    .grid-container {
+        border: 1px solid #000;
+        margin: 50px auto;
+        width: 400px;
+        height: 400px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+
+        .grid-box {
+            border: 1px solid black;
+            text-align: center;
+        }
+    }
+}
+.players-row {
+    display: flex;
+    justify-content: space-around;
+}
+.player-area {
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 50px;
+}
+
+#p1-header,
+#p2-header {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.active-1 {
+    background-color: green;
+    color: white;
+}
+.active-2 {
+    background-color: red;
+    color: white;
+}
+button {
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 12px;
+}
+.accum {
+    color: rgb(224, 14, 14);
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1;
+}
