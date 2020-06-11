@@ -53,7 +53,6 @@ function p2Roll() {
         player2.currentPts = player2.currentPts + 3
     }
     document.getElementById('box-' + player2.currentPts).classList.add('active-2');
-
     document.getElementById('p1-roll').disabled = false;
     document.getElementById('p2-roll').disabled = true;
 }
