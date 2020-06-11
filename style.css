@@ -84,4 +84,38 @@ img {
   text-align: center;
   line-height: 1;
 }
+
+.grid-box-snake {
+  position: relative;
+}
+
+.snake {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 170px;
+  width: 200px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.snake-2 {
+  position: absolute;
+  margin-top: 200px;
+  margin-right: 170px;
+  width: 200px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.ladder {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 185px;
+}
+
+.ladder-2 {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 50px;
+}
 /*# sourceMappingURL=style.css.map */
