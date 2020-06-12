@@ -19,16 +19,18 @@ function p1Roll() {
     }
     player1.currentPts += rollNum;
     if (player1.currentPts === 10 || player1.currentPts === 28) {
+        alert('OUCHHHHHH!!!')
         player1.currentPts = player1.currentPts - 5
     }
     else if (player1.currentPts === 9) {
+        alert('BEAM ME UP SCOTTY!!!!')
         player1.currentPts = player1.currentPts + 7
     }
     else if (player1.currentPts === 23) {
+        alert('BEAM ME UP SCOTTY!!!!')
         player1.currentPts = player1.currentPts + 3
     }
     document.getElementById('box-' + player1.currentPts).classList.add('active-1');
-
     document.getElementById('p1-roll').disabled = true;
     document.getElementById('p2-roll').disabled = false;
 }
@@ -48,9 +50,11 @@ function p2Roll() {
         player2.currentPts = player2.currentPts - 5
     }
     else if (player2.currentPts === 9) {
+        alert('BEAM ME UP SCOTTY!!!!')
         player2.currentPts = player2.currentPts + 7
     }
     else if (player2.currentPts === 23) {
+        alert('BEAM ME UP SCOTTY!!!!')
         player2.currentPts = player2.currentPts + 3
     }
     document.getElementById('box-' + player2.currentPts).classList.add('active-2');
