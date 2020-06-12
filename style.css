@@ -118,8 +118,8 @@ img {
   margin-top: 200px;
   margin-right: 170px;
   width: 200px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -webkit-transform: rotate(45de);
+          transform: rotate(45de);
 }
 
 .ladder {
