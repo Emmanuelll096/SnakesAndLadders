@@ -38,6 +38,21 @@ main .grid-container .grid-box {
   padding: 15px 50px;
 }
 
+.player-area p {
+  color: green;
+}
+
+.player-area2 {
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px 50px;
+}
+
+.player-area2 p {
+  color: red;
+}
+
 #p1-header,
 #p2-header {
   font-weight: bold;

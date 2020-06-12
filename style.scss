@@ -27,6 +27,18 @@ main {
     border-radius: 10px;
     text-align: center;
     padding: 15px 50px;
+    p {
+        color: green;
+    }
+}
+.player-area2 {
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 50px;
+    p {
+        color: red;
+    }
 }
 
 #p1-header,
