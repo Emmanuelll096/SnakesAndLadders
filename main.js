@@ -44,6 +44,7 @@ function p2Roll() {
     }
     player2.currentPts += rollNum;
     if (player2.currentPts === 10 || player2.currentPts === 28) {
+        alert('OUCHHHHHH!!!')
         player2.currentPts = player2.currentPts - 5
     }
     else if (player2.currentPts === 9) {
