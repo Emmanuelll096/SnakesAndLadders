@@ -11,7 +11,7 @@ document.getElementById('p2-roll').addEventListener('click', p2Roll);
 function p1Roll() {
     let rollNum = Math.floor(Math.random() * 6) + 1;
     document.getElementById('p1-roll-img').src = 'assets/dice' + rollNum + '.png'
-    if (player1.currentPts > 30) {
+    if ((player1.currentPts + rollNum) > 30) {
         alert(`Player 1 Wins!`)
     }
     if (player1.currentPts !== 0) {
@@ -36,8 +36,8 @@ function p1Roll() {
 function p2Roll() {
     let rollNum = Math.floor(Math.random() * 6) + 1;
     document.getElementById('p2-roll-img').src = 'assets/dice' + rollNum + '.png'
-    if (player2.currentPts > 30) {
-        alert(`Player 1 Wins!`)
+    if ((player2.currentPts + rollNum) > 30) {
+        alert(`Player 2 Wins!`)
     }
     if (player2.currentPts !== 0) {
         document.getElementById('box-' + player2.currentPts).classList.remove('active-2');
